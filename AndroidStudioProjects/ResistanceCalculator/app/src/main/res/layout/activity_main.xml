@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.coupdegrace.resistancecalculator.MainActivity"
+    android:background="#fafafa">
+
+
+    <TextView
+        android:text="0 Ω"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="79dp"
+        android:id="@+id/textView2"
+        android:scrollbarSize="12dp"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/RL1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+        android:text="Gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:id="@+id/band4"
+            android:textColor="#fafafa"
+        android:background="#d4af37"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="Band 3   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_alignBaseline="@+id/band4"
+            android:layout_alignBottom="@+id/band4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Band 4   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="16sp"
+            android:textColor="#000"
+
+            android:layout_alignBaseline="@+id/band4"
+            android:layout_alignBottom="@+id/band4"
+            android:layout_toLeftOf="@+id/band4"
+            android:layout_toStartOf="@+id/band4" />
+
+        <Button
+            android:text="Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/band3"
+            android:textColor="#fafafa"
+            android:background="#000"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:id="@+id/RL1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/band2"
+            android:textColor="#fafafa"
+            android:background="#000"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Band 2   "
+            android:layout_alignBaseline="@+id/band2"
+            android:layout_alignBottom="@+id/band2"
+            android:layout_toLeftOf="@+id/band2"
+            android:layout_toStartOf="@+id/band2" />
+
+        <TextView
+            android:text="Band 1   "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView4" />
+
+        <Button
+            android:text="Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/band1"
+            android:textColor="#fafafa"
+            android:background="#000"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/resis"
+        android:id="@+id/imageView2"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_action_about"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/about"
+        style="@android:style/Widget.Material.ImageButton"
+        android:background="@drawable/ic_action_about" />
+
+</RelativeLayout>

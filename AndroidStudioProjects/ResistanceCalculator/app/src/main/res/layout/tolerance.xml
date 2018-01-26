@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Gold 5%"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#FFF"
+        android:background="#d4af37" />
+
+    <Button
+        android:text="Silver 10%"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Silver"
+        android:layout_below="@+id/Black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#c0c0c0" />
+</LinearLayout>

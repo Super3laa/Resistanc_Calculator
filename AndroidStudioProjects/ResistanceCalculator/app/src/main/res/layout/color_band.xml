@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <Button
+        android:text="Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#FFF"
+        android:background="#000"/>
+
+    <Button
+        android:text="Brown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Brown"
+        android:layout_below="@+id/Black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#7D4302" />
+
+    <Button
+        android:text="Orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Orange"
+        android:layout_below="@+id/Red"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#f26b31" />
+
+    <Button
+        android:text="Green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Green"
+        android:layout_below="@+id/Yellow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#3CB057" />
+    <Button
+        android:text="Blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Blue"
+        android:layout_below="@+id/Green"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#0483DE" />
+
+    <Button
+        android:text="White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/White"
+        android:layout_below="@+id/Grey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:text="Red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Red"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#E60514"
+        android:layout_below="@id/Brown"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Yellow"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#F2EA7C"
+        android:layout_below="@id/Orange"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Violet"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#9D2CA3"
+        android:layout_below="@+id/Blue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Grey"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="#595759"
+        android:layout_below="@+id/Violet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
