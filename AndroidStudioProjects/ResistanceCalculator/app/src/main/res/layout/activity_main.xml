@@ -157,7 +157,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/about"
-        style="@android:style/Widget.Material.ImageButton"
+        android:style="@android:style/Widget.Material.ImageButton"
         android:background="@drawable/ic_action_about" />
 
 </RelativeLayout>
